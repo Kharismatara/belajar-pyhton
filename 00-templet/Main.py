@@ -35,7 +35,7 @@ print("data float :  " ,data_float, type(data_float))
 
 
 #3. type data flat ada komannya 
-data_string= "nabi yusuf"
+data_string= "10"
 print("data string : ", data_string, type(data_string))
 
 #4. type data booo adalah type data yang true or flase
@@ -55,3 +55,41 @@ from ctypes import c_double ,c_char
 
 data_cdouble = c_double(1000000.0000000000)
 print("data c_double  : ", data_cdouble, type(data_cdouble))
+
+
+
+#canting yaitu merubah data 
+print("=====INTEGER=====")
+data_float1= float(data_int)
+data_str1 =str(data_int)
+data_bool1 = bool(data_int)
+print(data_float1)
+print(data_str1)
+print(data_bool1) # jika 0 false 
+
+print("=====Float=====")
+data_int2= float(data_float)
+data_str2 =str(data_float)
+data_bool2 = bool(data_float)
+print(data_int)
+print(data_str2)
+print(data_bool2) # jika 0 false 
+
+print("=====BOOLEHAN =====")
+data_int3= float(data_bool)
+data_float3 =str(data_bool)
+data_str3 = float(data_bool)
+print(data_int3)
+print(data_float3)
+print(data_str3) 
+
+print("===== STRING =====")
+data_int4= float(data_string) # harus angka "10"
+data_bool4 =bool(data_string) # jika nilai string maka false ""
+data_float4 = float(data_string)
+print(data_int4)
+print(data_float4)
+print(data_bool4) 
+
+
+
