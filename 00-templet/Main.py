@@ -134,4 +134,15 @@ print( a, '%', b, '=', hasil)
 hasil = a // b 
 print( a, '//', b, '=', hasil)
 
+#priotias aritmatika 
+#1. tanda kurung ()
+#2. tanda eksponen/pangkat **
+#3 perkalian ( % / // %)
+#4. penjumlahan (+ - )
 
+x = 10
+y = 9
+z = 2
+
+hasil = x ** y * z + x % z / z - y // z
+print(x,'**', y,'*', z , '+',x,'%',z,'/',z,'-',y,'//',z,'=' ,hasil)
