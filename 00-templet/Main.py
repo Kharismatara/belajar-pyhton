@@ -146,3 +146,42 @@ z = 2
 
 hasil = x ** y * z + x % z / z - y // z
 print(x,'**', y,'*', z , '+',x,'%',z,'/',z,'-',y,'//',z,'=' ,hasil)
+
+
+#Latihan mengitung suhu temperature 
+print("\nMENGHITUNG SUHU TEMPERATURE\n ")
+
+celcius  = float(input("masukan temperature angka dalam celcius : "))
+print("suhu adalah ", celcius, "Celcius")
+
+#reamur 
+reamur = (4/5) * celcius
+print("suhu dalam reamur", reamur, "Reamur ")
+#fahrenheit 
+fahrenheit = ((9/5) * celcius) + 32
+print("suhu dalam fahrenheit", fahrenheit, "Fahrenheit ")
+#kelvin
+kelvin =  celcius + 273
+print("suhu dalam kelvin", kelvin, "Kelvin")
+
+#PR
+# MEMBUAT F-> K
+#kesimpulan bahwa f-k === c+273
+print("\nMENGHITUNG SUHU TEMPERATURE\n ")
+celcius  = float(input("masukan temperature angka dalam celcius : "))
+print("suhu adalah ", celcius, "Celcius")
+fahrenheit = ((9/5) * celcius) + 32
+print(" suhu  fahrenheit: ", fahrenheit)
+kelvin= 5/9 * (fahrenheit - 32) + 273
+print("suhu dalam kelvin", kelvin, "kelvin ")
+
+# MEMBUAT K-> F
+#kesimpulan bahwa k-f === 9/5 * c + 32 
+celcius  = float(input("masukan temperature angka dalam celcius : "))
+print("suhu adalah ", celcius, "Celcius")
+kelvin  = celcius + 273
+print("suhu kelvin : ", kelvin)
+fahrenheit = 9/5 * (kelvin - 273) + 32
+print("suhu dalam farenhai ", fahrenheit, "farenheit ")
+
+
