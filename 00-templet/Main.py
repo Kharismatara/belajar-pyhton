@@ -35,7 +35,7 @@ print("data float :  " ,data_float, type(data_float))
 
 
 #3. type data flat ada komannya 
-data_string= "10"
+data_string= "10 "
 print("data string : ", data_string, type(data_string))
 
 #4. type data booo adalah type data yang true or flase
@@ -83,13 +83,55 @@ print(data_int3)
 print(data_float3)
 print(data_str3) 
 
-print("===== STRING =====")
-data_int4= float(data_string) # harus angka "10"
-data_bool4 =bool(data_string) # jika nilai string maka false ""
-data_float4 = float(data_string)
-print(data_int4)
-print(data_float4)
-print(data_bool4) 
+#print("===== STRING =====")
+# data_int4= float(data_string) # harus angka "10"
+# data_bool4 =bool(data_string) # jika nilai string maka false ""
+# data_float4 = float(data_string)
+# print(data_int4)
+# print(data_float4)
+# print(data_bool4) 
 
+#eps input user 
+# data = input("masukan data: ")
+# print("data : ", data, "type= ", type(data))
+
+
+# data_int = int(input("masukan angka 1-5 : ",))
+# print("data_int : ", data_int, "type= ", type(data_int))
+ 
+
+#data_float90 = float(input("masukan angka : "))
+# print("data_float : ", data_float90, "type : ", type(data_float90))
+
+
+#biner = bool(int(input("masukan bolehan : ")))
+#print("biner : ", biner," type : ", type(biner))
+
+# aritmatika pada pthyon 
+
+a = 19
+b = 5
+
+# artimatika tambah 
+hasil = a + b 
+print( a, '+', b, '=', hasil)
+# artimatika bagi
+hasil = a / b 
+print( a, '/', b, '=', hasil)
+# artimatika kurang
+hasil = a - b 
+print( a, '-', b, '=', hasil)
+# artimatika kali
+hasil = a * b 
+print( a, '*', b, '=', hasil)
+# artimatika ekponen/pangkat
+hasil = a ** b 
+print( a, '**', b, '=', hasil)
+# artimatika modulus 
+hasil = a % b 
+print( a, '%', b, '=', hasil)
+# artimatika floor devisiin pembulatan ke bawah 
+hasil = a // b 
+print( a, '//', b, '=', hasil)
 
 
